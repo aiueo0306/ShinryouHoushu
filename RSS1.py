@@ -22,27 +22,27 @@ sys.path.append(SHARED_DIR)
 
 # ===== 共通関数のインポート =====
 from rss_utils import generate_rss
-from scraper_utils import extract_items
+from scraper_utils2 import extract_items
 from browser_utils import click_button_in_order
 from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
-BASE_URL = "https://www.mhlw.go.jp/topics/2025/04/tp20250401-01.html"
-GAKKAI = "薬価基準収載品目リスト及び後発医薬品に関する情報について"
+BASE_URL = "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html#9a8e0343b7d39195f37b169b70b12c95"
+GAKKAI = "令和６年度診療報酬改定について"
 
-SELECTOR_TITLE = "div.section:nth-of-type(3) ul"
-title_selector = "a"
+SELECTOR_TITLE = "div.l-contentMain tr"
+title_selector = ""
 title_index = 0
 href_selector = "a"
 href_index = 0
-SELECTOR_DATE = "div.section:nth-of-type(3) ul"
-date_selector = "span.newupdata"
+SELECTOR_DATE = "div.l-contentMain tr"
+date_selector = ""
 date_index = 0
-year_unit = ""
+year_unit = "年"
 month_unit = "月"
 day_unit = "日"
-date_format = f"%Y{month_unit}%d{day_unit}"
-date_regex = rf"(\d{{1,2}}){month_unit}(\d{{1,2}}){day_unit}"
+date_format = ""
+date_regex = ""
 
 # ===== ポップアップ順序クリック設定 =====
 POPUP_MODE = 0  # 1: 実行 / 0: スキップ
