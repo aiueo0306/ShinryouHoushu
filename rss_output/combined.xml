@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>製薬会社RSS統合</title><link>https://example.com/rss_output/combined.xml</link><description>複数フィードを統合したマスターRSS</description><atom:link href="https://example.com/rss_output/combined.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Mon, 19 Jan 2026 23:29:58 +0000</lastBuildDate><item><title>【令和６年度診療報酬改定について】名称
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0"><channel><title>製薬会社RSS統合</title><link>https://example.com/rss_output/combined.xml</link><description>複数フィードを統合したマスターRSS</description><atom:link href="https://example.com/rss_output/combined.xml" rel="self"/><docs>http://www.rssboard.org/rss-specification</docs><generator>python-feedgen</generator><language>ja</language><lastBuildDate>Tue, 20 Jan 2026 02:21:36 +0000</lastBuildDate><item><title>【令和６年度診療報酬改定について】名称
 				番号・日付
 				ダウンロード</title><link>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html#9a8e0343b7d39195f37b169b70b12c95</link><description>名称
 				番号・日付
@@ -455,15 +455,7 @@
 				番号・日付
 				ダウンロード</title><link>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html#9a8e0343b7d39195f37b169b70b12c95</link><description>名称
 				番号・日付
-				ダウンロード</description><guid isPermaLink="false">urn:newsitem:1e60f9bdc3dc01c652da8149ebb449a24b954fa3</guid></item><item><title>【令和６年度診療報酬改定について】【2026-01-16】24
-				データの提出に遅延等が認められた保険医療機関におけるデータ提出加算（A245）の取扱いについて
-				令和８年１月16日
-					保医発0116第１号
-				PDF［250KB］</title><link>https://www.mhlw.go.jp/content/12404000/001634300.pdf</link><description>24
-				データの提出に遅延等が認められた保険医療機関におけるデータ提出加算（A245）の取扱いについて
-				令和８年１月16日
-					保医発0116第１号
-				PDF［250KB］</description><guid isPermaLink="false">https://www.mhlw.go.jp/content/12404000/001634300.pdf#20260116</guid><pubDate>Fri, 16 Jan 2026 00:00:00 +0000</pubDate></item><item><title>【令和６年度診療報酬改定について】名称
+				ダウンロード</description><guid isPermaLink="false">urn:newsitem:1e60f9bdc3dc01c652da8149ebb449a24b954fa3</guid></item><item><title>【令和６年度診療報酬改定について】名称
 				番号・日付
 				ダウンロード</title><link>https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/0000188411_00045.html#9a8e0343b7d39195f37b169b70b12c95</link><description>名称
 				番号・日付
