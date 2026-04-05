@@ -27,15 +27,15 @@ from browser_utils import click_button_in_order
 from browser_utils import click_button_in_order
 
 # ===== 固定情報（学会サイト） =====
-BASE_URL = "https://www.mhlw.go.jp/stf/newpage_67942.html"
-GAKKAI = "令和６年度診療報酬改定について"
+BASE_URL = "https://www.mhlw.go.jp/stf/newpage_67729.html"
+GAKKAI = "令和８年度診療報酬改定について"
 
-SELECTOR_TITLE = "div.l-contentMain tr"
-title_selector = ""
+SELECTOR_TITLE = "div.l-contentMain"
+title_selector = "a"
 title_index = 0
 href_selector = "a"
 href_index = 0
-SELECTOR_DATE = "div.l-contentMain tr"
+SELECTOR_DATE = ""
 date_selector = ""
 date_index = 0
 year_unit = "年"
