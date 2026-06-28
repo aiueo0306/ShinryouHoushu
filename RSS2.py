@@ -30,7 +30,7 @@ from browser_utils import click_button_in_order
 BASE_URL = "https://www.mhlw.go.jp/stf/newpage_67729.html"
 GAKKAI = "令和８年度診療報酬改定について"
 
-SELECTOR_TITLE = 'xpath=//*[@id="content"]/div[2]/div/div/div[15]'
+SELECTOR_TITLE = 'xpath=//*[@id="content"]/div[2]/div/div/div[15] a'
 title_selector = "a"
 title_index = 0
 href_selector = "a"
